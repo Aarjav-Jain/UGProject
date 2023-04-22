@@ -11,7 +11,7 @@ const CustomForm = ({
   labels,
   result = '',
   setResult,
-  resultUnits,
+  resultUnits = '',
   btnText = 'Calculate',
   resultText = 'Calculated value is',
 }) => {

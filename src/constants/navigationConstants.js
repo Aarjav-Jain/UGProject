@@ -11,4 +11,8 @@ export const NAVIGATIONS = {
     name: 'detonationfactor',
     title: 'Detonation Factor',
   },
+  ENERGY_FACTOR: {
+    name: 'energyfactor',
+    title: 'Energy Factor',
+  },
 };

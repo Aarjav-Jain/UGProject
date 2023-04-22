@@ -5,6 +5,7 @@ import {SafeAreaProvider} from 'react-native-safe-area-context';
 import PowderFactor from './src/screens/PowderFactor';
 import {NAVIGATIONS} from './src/constants';
 import DetonationFactor from './src/screens/DetonationFactor';
+import EnergyFactor from './src/screens/EnergyFactor';
 
 const Stack = createNativeStackNavigator();
 
@@ -38,6 +39,11 @@ export default function App() {
             name={NAVIGATIONS.DETONATION_FACTOR.name}
             component={DetonationFactor}
             options={{title: NAVIGATIONS.DETONATION_FACTOR.title}}
+          />
+          <Stack.Screen
+            name={NAVIGATIONS.ENERGY_FACTOR.name}
+            component={EnergyFactor}
+            options={{title: NAVIGATIONS.ENERGY_FACTOR.title}}
           />
         </Stack.Navigator>
       </NavigationContainer>

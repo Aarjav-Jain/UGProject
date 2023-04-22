@@ -16,7 +16,11 @@ export default function Home() {
           navigationPath={NAVIGATIONS.DETONATION_FACTOR.name}
           text={NAVIGATIONS.DETONATION_FACTOR.title.toUpperCase()}
         />
-        <Card imagePath={icons.calculator} />
+        <Card
+          imagePath={icons.energy}
+          navigationPath={NAVIGATIONS.ENERGY_FACTOR.name}
+          text={NAVIGATIONS.ENERGY_FACTOR.title.toUpperCase()}
+        />
         <Card imagePath={icons.calculator} />
         <Card imagePath={icons.calculator} />
         <Card imagePath={icons.calculator} />
