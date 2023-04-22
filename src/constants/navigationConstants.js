@@ -19,4 +19,8 @@ export const NAVIGATIONS = {
     name: 'blastholelength',
     title: 'Blast Hole Length',
   },
+  DETONATION_PRESSURE: {
+    name: 'detonationpressure',
+    title: 'Detonation Pressure',
+  },
 };

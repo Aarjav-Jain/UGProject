@@ -26,7 +26,11 @@ export default function Home() {
           navigationPath={NAVIGATIONS.BLAST_HOLE_LENGTH.name}
           text={NAVIGATIONS.BLAST_HOLE_LENGTH.title.toUpperCase()}
         />
-        <Card imagePath={icons.calculator} />
+        <Card
+          imagePath={icons.pressure}
+          navigationPath={NAVIGATIONS.DETONATION_PRESSURE.name}
+          text={NAVIGATIONS.DETONATION_PRESSURE.title.toUpperCase()}
+        />
         <Card imagePath={icons.calculator} />
       </ScrollView>
     </View>
