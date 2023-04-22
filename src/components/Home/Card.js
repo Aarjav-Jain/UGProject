@@ -13,7 +13,7 @@ export default function Card({text, imagePath, navigationPath}) {
       }}>
       <View style={styles.cardContainer}>
         <View style={styles.imageCircle}>
-          <Image source={imagePath} style={{width: 70, height: 70}} />
+          <Image source={imagePath} style={{width: 60, height: 60}} />
         </View>
         <CustomText text={text} size={18} fontColor="grey" weight={500} />
       </View>

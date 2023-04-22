@@ -8,7 +8,10 @@ const PowderFactor = () => {
     weightOfRockBroken: null,
   };
 
-  const labels = ['Weight of Explosive Consumed', 'Weight of Rock Broken'];
+  const labels = [
+    'Weight of Explosive Consumed (kg)',
+    'Weight of Rock Broken (tonne)',
+  ];
 
   const reducer = (state, action) => {
     switch (action.type) {
@@ -22,8 +25,8 @@ const PowderFactor = () => {
   };
 
   const handleClick = () => {
-    console.log(state);
-    setResult('10');
+    const powderFactor = state.weightOfExplosive / state.weightOfRockBroken;
+    setResult(powderFactor);
   };
 
   const [state, dispatch] = useReducer(reducer, initialValues);

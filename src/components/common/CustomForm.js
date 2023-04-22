@@ -1,5 +1,5 @@
 import {View, ScrollView, StyleSheet} from 'react-native';
-import React, {useState} from 'react';
+import {useState} from 'react';
 import {Button, Input} from 'react-native-elements';
 import CustomText from './CustomText';
 
@@ -16,11 +16,6 @@ const CustomForm = ({
 }) => {
   const initialKeys = Object.keys(initialValues);
   const [errObj, setErrObj] = useState({});
-
-  // view
-  //result view
-  // scrollview
-  // button
 
   const declareErrorObj = () => {
     setResult(null);
@@ -44,9 +39,6 @@ const CustomForm = ({
     <View style={styles.flexContainer}>
       {result && (
         <View style={styles.result}>
-          {/* <Text style={{color: 'black', fontSize: 20}}>
-            {resultText} {result}
-          </Text> */}
           <CustomText text={`${resultText} : ${result}`} size={20} />
         </View>
       )}

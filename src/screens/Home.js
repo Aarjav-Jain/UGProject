@@ -9,6 +9,7 @@ export default function Home() {
         <Card
           imagePath={icons.calculator}
           navigationPath={NAVIGATIONS.POWDER_FACTOR.name}
+          text={NAVIGATIONS.POWDER_FACTOR.title.toUpperCase()}
         />
         <Card imagePath={icons.calculator} />
         <Card imagePath={icons.calculator} />
