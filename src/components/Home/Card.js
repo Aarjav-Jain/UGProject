@@ -11,11 +11,7 @@ export default function Card({text, imagePath}) {
       }}>
       <View style={styles.cardContainer}>
         <View style={styles.imageCircle}>
-          <Image
-            source={require('../../assets/calculator.png')}
-            style={{width: 70, height: 70}}
-          />
-          {console.log(imagePath)}
+          <Image source={imagePath} style={{width: 70, height: 70}} />
         </View>
         <CustomText text={text} size={18} fontColor="grey" weight={500} />
       </View>
@@ -25,12 +21,10 @@ export default function Card({text, imagePath}) {
 
 Card.propTypes = {
   text: PropTypes.string,
-  imagePath: PropTypes.string,
 };
 
 Card.defaultProps = {
   text: 'BLASTING PREDICTIONS',
-  imagePath: `require('../../assets/calculator.png')`,
 };
 
 const styles = StyleSheet.create({
