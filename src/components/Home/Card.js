@@ -2,12 +2,14 @@ import {View, Image, StyleSheet, TouchableWithoutFeedback} from 'react-native';
 import React from 'react';
 import CustomText from '../common/CustomText';
 import PropTypes from 'prop-types';
+import {useNavigation} from '@react-navigation/native';
 
-export default function Card({text, imagePath}) {
+export default function Card({text, imagePath, navigationPath}) {
+  const navigation = useNavigation();
   return (
     <TouchableWithoutFeedback
       onPress={() => {
-        console.log('pressed');
+        navigation.navigate(navigationPath);
       }}>
       <View style={styles.cardContainer}>
         <View style={styles.imageCircle}>
