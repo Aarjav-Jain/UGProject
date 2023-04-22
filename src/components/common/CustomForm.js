@@ -11,6 +11,7 @@ const CustomForm = ({
   labels,
   result = '',
   setResult,
+  resultUnits,
   btnText = 'Calculate',
   resultText = 'Calculated value is',
 }) => {
@@ -39,7 +40,10 @@ const CustomForm = ({
     <View style={styles.flexContainer}>
       {result && (
         <View style={styles.result}>
-          <CustomText text={`${resultText} : ${result}`} size={20} />
+          <CustomText
+            text={`${resultText} : ${result}${resultUnits}`}
+            size={20}
+          />
         </View>
       )}
       <ScrollView contentContainerStyle={styles.scrollViewContainer}>
@@ -110,6 +114,6 @@ const styles = StyleSheet.create({
     marginHorizontal: '5%',
     marginTop: 10,
     // width: '80%',
-    // alignItems: 'center',
+    alignItems: 'center',
   },
 });

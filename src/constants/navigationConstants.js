@@ -7,4 +7,8 @@ export const NAVIGATIONS = {
     name: 'powderfactor',
     title: 'Powder Factor',
   },
+  DETONATION_FACTOR: {
+    name: 'detonationfactor',
+    title: 'Detonation Factor',
+  },
 };

@@ -11,7 +11,11 @@ export default function Home() {
           navigationPath={NAVIGATIONS.POWDER_FACTOR.name}
           text={NAVIGATIONS.POWDER_FACTOR.title.toUpperCase()}
         />
-        <Card imagePath={icons.calculator} />
+        <Card
+          imagePath={icons.detonator}
+          navigationPath={NAVIGATIONS.DETONATION_FACTOR.name}
+          text={NAVIGATIONS.DETONATION_FACTOR.title.toUpperCase()}
+        />
         <Card imagePath={icons.calculator} />
         <Card imagePath={icons.calculator} />
         <Card imagePath={icons.calculator} />

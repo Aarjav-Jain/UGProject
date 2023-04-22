@@ -1,4 +1,3 @@
-import {View, Text} from 'react-native';
 import {useState, useReducer} from 'react';
 import CustomForm from '../components/common/CustomForm';
 
@@ -26,7 +25,7 @@ const PowderFactor = () => {
 
   const handleClick = () => {
     const powderFactor = state.weightOfExplosive / state.weightOfRockBroken;
-    setResult(powderFactor);
+    setResult(powderFactor.toFixed(2));
   };
 
   const [state, dispatch] = useReducer(reducer, initialValues);
@@ -41,6 +40,7 @@ const PowderFactor = () => {
       labels={labels}
       result={result}
       setResult={setResult}
+      resultUnits="kg/tonne"
       resultText="Powder Factor is"
     />
   );
