@@ -6,6 +6,7 @@ import PowderFactor from './src/screens/PowderFactor';
 import {NAVIGATIONS} from './src/constants';
 import DetonationFactor from './src/screens/DetonationFactor';
 import EnergyFactor from './src/screens/EnergyFactor';
+import BlastHoleLength from './src/screens/BlastHoleLength';
 
 const Stack = createNativeStackNavigator();
 
@@ -44,6 +45,11 @@ export default function App() {
             name={NAVIGATIONS.ENERGY_FACTOR.name}
             component={EnergyFactor}
             options={{title: NAVIGATIONS.ENERGY_FACTOR.title}}
+          />
+          <Stack.Screen
+            name={NAVIGATIONS.BLAST_HOLE_LENGTH.name}
+            component={BlastHoleLength}
+            options={{title: NAVIGATIONS.BLAST_HOLE_LENGTH.title}}
           />
         </Stack.Navigator>
       </NavigationContainer>

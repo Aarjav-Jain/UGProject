@@ -15,4 +15,8 @@ export const NAVIGATIONS = {
     name: 'energyfactor',
     title: 'Energy Factor',
   },
+  BLAST_HOLE_LENGTH: {
+    name: 'blastholelength',
+    title: 'Blast Hole Length',
+  },
 };
