@@ -1,16 +1,17 @@
-import {View, Text, StyleSheet, ScrollView} from 'react-native';
+import {View, Text, StyleSheet, ScrollView, Image} from 'react-native';
 import Card from '../components/Home/Card';
+import {icons} from '../constants';
 
 export default function Home() {
   return (
     <View style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollContainer}>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <Card imagePath={icons.calculator} />
+        <Card imagePath={icons.calculator} />
+        <Card imagePath={icons.calculator} />
+        <Card imagePath={icons.calculator} />
+        <Card imagePath={icons.calculator} />
+        <Card imagePath={icons.calculator} />
       </ScrollView>
     </View>
   );
