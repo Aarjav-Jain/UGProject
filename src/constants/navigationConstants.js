@@ -23,4 +23,8 @@ export const NAVIGATIONS = {
     name: 'detonationpressure',
     title: 'Detonation Pressure',
   },
+  LOADING_DENSITY: {
+    name: 'loadingdensity',
+    title: 'Loading Density',
+  },
 };

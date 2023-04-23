@@ -8,7 +8,7 @@ export default function DetonationPressure() {
   };
 
   const labels = [
-    `Density of Explosive (kg/m${(<sup>3</sup>)})`,
+    `Density of Explosive (kg/m\xB3)`,
     'Velocity of Detonation(m/s)',
   ];
 

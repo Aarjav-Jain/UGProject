@@ -31,7 +31,11 @@ export default function Home() {
           navigationPath={NAVIGATIONS.DETONATION_PRESSURE.name}
           text={NAVIGATIONS.DETONATION_PRESSURE.title.toUpperCase()}
         />
-        <Card imagePath={icons.calculator} />
+        <Card
+          imagePath={icons.density}
+          navigationPath={NAVIGATIONS.LOADING_DENSITY.name}
+          text={NAVIGATIONS.LOADING_DENSITY.title.toUpperCase()}
+        />
       </ScrollView>
     </View>
   );

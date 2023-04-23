@@ -8,6 +8,7 @@ import DetonationFactor from './src/screens/DetonationFactor';
 import EnergyFactor from './src/screens/EnergyFactor';
 import BlastHoleLength from './src/screens/BlastHoleLength';
 import DetonationPressure from './src/screens/DetonationPressure';
+import LoadingDensity from './src/screens/LoadingDensity';
 
 const Stack = createNativeStackNavigator();
 
@@ -56,6 +57,11 @@ export default function App() {
             name={NAVIGATIONS.DETONATION_PRESSURE.name}
             component={DetonationPressure}
             options={{title: NAVIGATIONS.DETONATION_PRESSURE.title}}
+          />
+          <Stack.Screen
+            name={NAVIGATIONS.LOADING_DENSITY.name}
+            component={LoadingDensity}
+            options={{title: NAVIGATIONS.LOADING_DENSITY.title}}
           />
         </Stack.Navigator>
       </NavigationContainer>
