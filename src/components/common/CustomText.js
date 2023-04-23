@@ -8,6 +8,7 @@ export default function CustomText({
   fontColor,
   weight,
   textAlignment,
+  customStyle,
 }) {
   return (
     <Text
@@ -17,6 +18,8 @@ export default function CustomText({
         color: fontColor,
         fontWeight: weight,
         textAlign: textAlignment,
+        width: '80%',
+        ...customStyle,
       }}>
       {text}
     </Text>
@@ -29,6 +32,7 @@ CustomText.propTypes = {
   fontColor: PropTypes.string,
   weight: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   textAlignment: PropTypes.string,
+  customStyle: PropTypes.object,
 };
 
 CustomText.defaultProps = {
@@ -37,4 +41,5 @@ CustomText.defaultProps = {
   fontColor: 'black',
   weight: 400,
   textAlignment: 'center',
+  customStyle: {},
 };
