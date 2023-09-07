@@ -9,6 +9,7 @@ import EnergyFactor from './src/screens/EnergyFactor';
 import BlastHoleLength from './src/screens/BlastHoleLength';
 import DetonationPressure from './src/screens/DetonationPressure';
 import LoadingDensity from './src/screens/LoadingDensity';
+import BlastHoleDiameter from './src/screens/BlastHoleDiameter';
 
 const Stack = createNativeStackNavigator();
 
@@ -62,6 +63,11 @@ export default function App() {
             name={NAVIGATIONS.LOADING_DENSITY.name}
             component={LoadingDensity}
             options={{title: NAVIGATIONS.LOADING_DENSITY.title}}
+          />
+          <Stack.Screen
+            name={NAVIGATIONS.BLAST_HOLE_DIAMETER.name}
+            component={BlastHoleDiameter}
+            options={{title: NAVIGATIONS.BLAST_HOLE_DIAMETER.title}}
           />
         </Stack.Navigator>
       </NavigationContainer>

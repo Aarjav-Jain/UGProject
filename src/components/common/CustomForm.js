@@ -14,6 +14,7 @@ const CustomForm = ({
   resultUnits = '',
   btnText = 'Calculate',
   resultText = 'Calculated value is',
+  children,
 }) => {
   const initialKeys = Object.keys(initialValues);
   const [errObj, setErrObj] = useState({});
@@ -69,6 +70,7 @@ const CustomForm = ({
             />
           );
         })}
+        {children}
       </ScrollView>
       <Button
         onPress={validateInput}

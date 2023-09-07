@@ -36,10 +36,11 @@ export default function Home() {
           navigationPath={NAVIGATIONS.LOADING_DENSITY.name}
           text={NAVIGATIONS.LOADING_DENSITY.title.toUpperCase()}
         />
+        {/* ////////////// */}
         <Card
           imagePath={icons.diameter}
-          navigationPath={NAVIGATIONS.LOADING_DENSITY.name}
-          text={NAVIGATIONS.LOADING_DENSITY.title.toUpperCase()}
+          navigationPath={NAVIGATIONS.BLAST_HOLE_DIAMETER.name}
+          text={NAVIGATIONS.BLAST_HOLE_DIAMETER.title.toUpperCase()}
         />
         <Card
           imagePath={icons.ratio}
