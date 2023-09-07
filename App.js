@@ -14,6 +14,7 @@ import Burden from './src/screens/Burden';
 import Spacing from './src/screens/Spacing';
 import Stemming from './src/screens/Stemming';
 import SubDrill from './src/screens/SubDrill';
+import StiffnessRatio from './src/screens/StiffnessRatio';
 
 const Stack = createNativeStackNavigator();
 
@@ -92,6 +93,11 @@ export default function App() {
             name={NAVIGATIONS.SUBDRILL.name}
             component={SubDrill}
             options={{title: NAVIGATIONS.SUBDRILL.title}}
+          />
+          <Stack.Screen
+            name={NAVIGATIONS.STIFFNESS_RATIO.name}
+            component={StiffnessRatio}
+            options={{title: NAVIGATIONS.STIFFNESS_RATIO.title}}
           />
         </Stack.Navigator>
       </NavigationContainer>

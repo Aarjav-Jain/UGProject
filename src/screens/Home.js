@@ -36,11 +36,15 @@ export default function Home() {
           navigationPath={NAVIGATIONS.LOADING_DENSITY.name}
           text={NAVIGATIONS.LOADING_DENSITY.title.toUpperCase()}
         />
-        {/* ////////////// */}
         <Card
           imagePath={icons.diameter}
           navigationPath={NAVIGATIONS.BLAST_HOLE_DIAMETER.name}
           text={NAVIGATIONS.BLAST_HOLE_DIAMETER.title.toUpperCase()}
+        />
+        <Card
+          imagePath={icons.ratio}
+          navigationPath={NAVIGATIONS.STIFFNESS_RATIO.name}
+          text={NAVIGATIONS.STIFFNESS_RATIO.title.toUpperCase()}
         />
         <Card
           imagePath={icons.burden}
@@ -62,11 +66,6 @@ export default function Home() {
           navigationPath={NAVIGATIONS.SUBDRILL.name}
           text={NAVIGATIONS.SUBDRILL.title.toUpperCase()}
         />
-        <Card
-          imagePath={icons.subdrill}
-          navigationPath={NAVIGATIONS.LOADING_DENSITY.name}
-          text={NAVIGATIONS.LOADING_DENSITY.title.toUpperCase()}
-        />
       </ScrollView>
     </View>
   );
@@ -83,5 +82,6 @@ const styles = StyleSheet.create({
     justifyContent: 'space-evenly',
     rowGap: 40,
     paddingTop: 40,
+    paddingBottom: 40,
   },
 });
