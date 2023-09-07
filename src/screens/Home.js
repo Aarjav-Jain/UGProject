@@ -54,8 +54,8 @@ export default function Home() {
         />
         <Card
           imagePath={icons.stemming}
-          navigationPath={NAVIGATIONS.LOADING_DENSITY.name}
-          text={NAVIGATIONS.LOADING_DENSITY.title.toUpperCase()}
+          navigationPath={NAVIGATIONS.STEMMING.name}
+          text={NAVIGATIONS.STEMMING.title.toUpperCase()}
         />
         <Card
           imagePath={icons.burden}

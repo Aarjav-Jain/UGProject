@@ -39,13 +39,13 @@ export const NAVIGATIONS = {
     name: 'spacing',
     title: 'Spacing',
   },
-  SUBDRILL: {
-    name: 'subdrill',
-    title: 'Sub-Drill',
-  },
   STEMMING: {
     name: 'stemming',
     title: 'Stemming',
+  },
+  SUBDRILL: {
+    name: 'subdrill',
+    title: 'Sub-Drill',
   },
   STIFFNESS_RATIO: {
     name: 'stiffnessratio',

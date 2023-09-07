@@ -12,6 +12,7 @@ import LoadingDensity from './src/screens/LoadingDensity';
 import BlastHoleDiameter from './src/screens/BlastHoleDiameter';
 import Burden from './src/screens/Burden';
 import Spacing from './src/screens/Spacing';
+import Stemming from './src/screens/Stemming';
 
 const Stack = createNativeStackNavigator();
 
@@ -80,6 +81,11 @@ export default function App() {
             name={NAVIGATIONS.SPACING.name}
             component={Spacing}
             options={{title: NAVIGATIONS.SPACING.title}}
+          />
+          <Stack.Screen
+            name={NAVIGATIONS.STEMMING.name}
+            component={Stemming}
+            options={{title: NAVIGATIONS.STEMMING.title}}
           />
         </Stack.Navigator>
       </NavigationContainer>
