@@ -9,7 +9,7 @@ const PowderFactor = () => {
 
   const labels = [
     'Weight of Explosive Consumed (kg)',
-    'Weight of Rock Broken (tonne)',
+    'Weight of Rock Broken (m^3)',
   ];
 
   const reducer = (state, action) => {
@@ -40,7 +40,7 @@ const PowderFactor = () => {
       labels={labels}
       result={result}
       setResult={setResult}
-      resultUnits="kg/tonne"
+      resultUnits="kg/m^3"
       resultText="Powder Factor is"
     />
   );
