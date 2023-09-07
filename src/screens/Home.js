@@ -48,17 +48,17 @@ export default function Home() {
           text={NAVIGATIONS.BURDEN.title.toUpperCase()}
         />
         <Card
+          imagePath={icons.spacing}
+          navigationPath={NAVIGATIONS.SPACING.name}
+          text={NAVIGATIONS.SPACING.title.toUpperCase()}
+        />
+        <Card
           imagePath={icons.stemming}
           navigationPath={NAVIGATIONS.LOADING_DENSITY.name}
           text={NAVIGATIONS.LOADING_DENSITY.title.toUpperCase()}
         />
         <Card
           imagePath={icons.burden}
-          navigationPath={NAVIGATIONS.LOADING_DENSITY.name}
-          text={NAVIGATIONS.LOADING_DENSITY.title.toUpperCase()}
-        />
-        <Card
-          imagePath={icons.spacing}
           navigationPath={NAVIGATIONS.LOADING_DENSITY.name}
           text={NAVIGATIONS.LOADING_DENSITY.title.toUpperCase()}
         />
