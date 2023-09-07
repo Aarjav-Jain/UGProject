@@ -45,7 +45,7 @@ export const NAVIGATIONS = {
   },
   SUBDRILL: {
     name: 'subdrill',
-    title: 'Sub-Drill',
+    title: 'Sub Drill',
   },
   STIFFNESS_RATIO: {
     name: 'stiffnessratio',

@@ -13,6 +13,7 @@ import BlastHoleDiameter from './src/screens/BlastHoleDiameter';
 import Burden from './src/screens/Burden';
 import Spacing from './src/screens/Spacing';
 import Stemming from './src/screens/Stemming';
+import SubDrill from './src/screens/SubDrill';
 
 const Stack = createNativeStackNavigator();
 
@@ -86,6 +87,11 @@ export default function App() {
             name={NAVIGATIONS.STEMMING.name}
             component={Stemming}
             options={{title: NAVIGATIONS.STEMMING.title}}
+          />
+          <Stack.Screen
+            name={NAVIGATIONS.SUBDRILL.name}
+            component={SubDrill}
+            options={{title: NAVIGATIONS.SUBDRILL.title}}
           />
         </Stack.Navigator>
       </NavigationContainer>

@@ -58,9 +58,9 @@ export default function Home() {
           text={NAVIGATIONS.STEMMING.title.toUpperCase()}
         />
         <Card
-          imagePath={icons.burden}
-          navigationPath={NAVIGATIONS.LOADING_DENSITY.name}
-          text={NAVIGATIONS.LOADING_DENSITY.title.toUpperCase()}
+          imagePath={icons.subdrill}
+          navigationPath={NAVIGATIONS.SUBDRILL.name}
+          text={NAVIGATIONS.SUBDRILL.title.toUpperCase()}
         />
         <Card
           imagePath={icons.subdrill}
