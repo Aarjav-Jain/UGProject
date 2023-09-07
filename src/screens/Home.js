@@ -43,9 +43,9 @@ export default function Home() {
           text={NAVIGATIONS.BLAST_HOLE_DIAMETER.title.toUpperCase()}
         />
         <Card
-          imagePath={icons.ratio}
-          navigationPath={NAVIGATIONS.LOADING_DENSITY.name}
-          text={NAVIGATIONS.LOADING_DENSITY.title.toUpperCase()}
+          imagePath={icons.burden}
+          navigationPath={NAVIGATIONS.BURDEN.name}
+          text={NAVIGATIONS.BURDEN.title.toUpperCase()}
         />
         <Card
           imagePath={icons.stemming}

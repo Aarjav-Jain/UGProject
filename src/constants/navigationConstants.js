@@ -31,4 +31,24 @@ export const NAVIGATIONS = {
     name: 'blastholediameter',
     title: 'Blast Hole Diameter',
   },
+  BURDEN: {
+    name: 'burden',
+    title: 'Burden',
+  },
+  SPACING: {
+    name: 'spacing',
+    title: 'Spacing',
+  },
+  SUBDRILL: {
+    name: 'subdrill',
+    title: 'Sub-Drill',
+  },
+  STEMMING: {
+    name: 'stemming',
+    title: 'Stemming',
+  },
+  STIFFNESS_RATIO: {
+    name: 'stiffnessratio',
+    title: 'Stiffness Ratio',
+  },
 };

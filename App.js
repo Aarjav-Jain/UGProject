@@ -10,6 +10,7 @@ import BlastHoleLength from './src/screens/BlastHoleLength';
 import DetonationPressure from './src/screens/DetonationPressure';
 import LoadingDensity from './src/screens/LoadingDensity';
 import BlastHoleDiameter from './src/screens/BlastHoleDiameter';
+import Burden from './src/screens/Burden';
 
 const Stack = createNativeStackNavigator();
 
@@ -68,6 +69,11 @@ export default function App() {
             name={NAVIGATIONS.BLAST_HOLE_DIAMETER.name}
             component={BlastHoleDiameter}
             options={{title: NAVIGATIONS.BLAST_HOLE_DIAMETER.title}}
+          />
+          <Stack.Screen
+            name={NAVIGATIONS.BURDEN.name}
+            component={Burden}
+            options={{title: NAVIGATIONS.BURDEN.title}}
           />
         </Stack.Navigator>
       </NavigationContainer>
