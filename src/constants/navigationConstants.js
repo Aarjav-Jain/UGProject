@@ -27,4 +27,8 @@ export const NAVIGATIONS = {
     name: 'loadingdensity',
     title: 'Loading Density',
   },
+  BLAST_HOLE_DIAMETER: {
+    name: 'blastholediameter',
+    title: 'Blast Hole Diameter',
+  },
 };

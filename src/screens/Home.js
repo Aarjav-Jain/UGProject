@@ -36,6 +36,36 @@ export default function Home() {
           navigationPath={NAVIGATIONS.LOADING_DENSITY.name}
           text={NAVIGATIONS.LOADING_DENSITY.title.toUpperCase()}
         />
+        <Card
+          imagePath={icons.diameter}
+          navigationPath={NAVIGATIONS.LOADING_DENSITY.name}
+          text={NAVIGATIONS.LOADING_DENSITY.title.toUpperCase()}
+        />
+        <Card
+          imagePath={icons.ratio}
+          navigationPath={NAVIGATIONS.LOADING_DENSITY.name}
+          text={NAVIGATIONS.LOADING_DENSITY.title.toUpperCase()}
+        />
+        <Card
+          imagePath={icons.stemming}
+          navigationPath={NAVIGATIONS.LOADING_DENSITY.name}
+          text={NAVIGATIONS.LOADING_DENSITY.title.toUpperCase()}
+        />
+        <Card
+          imagePath={icons.burden}
+          navigationPath={NAVIGATIONS.LOADING_DENSITY.name}
+          text={NAVIGATIONS.LOADING_DENSITY.title.toUpperCase()}
+        />
+        <Card
+          imagePath={icons.spacing}
+          navigationPath={NAVIGATIONS.LOADING_DENSITY.name}
+          text={NAVIGATIONS.LOADING_DENSITY.title.toUpperCase()}
+        />
+        <Card
+          imagePath={icons.subdrill}
+          navigationPath={NAVIGATIONS.LOADING_DENSITY.name}
+          text={NAVIGATIONS.LOADING_DENSITY.title.toUpperCase()}
+        />
       </ScrollView>
     </View>
   );
